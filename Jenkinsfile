@@ -14,7 +14,7 @@ pipeline {
 		stage("test: baseline (jdk8)") {
 			
 			steps {
-				sh 'test/run.sh'
+				sh 'test/run1.sh'
 			}
 		}
 
