@@ -14,7 +14,7 @@ pipeline {
 		stage("test: baseline (jdk8)") {
 			
 			steps {
-				sh 'cd ../complete && ./mvnw package'
+				sh 'cd complete && ./mvnw package'
 				//sh 'test/run.sh'
 			}
 		}
