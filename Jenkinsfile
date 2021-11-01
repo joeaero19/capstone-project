@@ -1,6 +1,6 @@
 pipeline {
-	 //agent {label 'ec2-slave'}
-	agent any
+	 agent {label 'ec2-slave'}
+	
 
 	triggers {
 		pollSCM 'H/2 * * * *'
